@@ -21,7 +21,7 @@ acl.allow([
 	{
 		roles:['someRole'], 
 		allows:[
-			{resources:'/resource(/[0-9]+$)?', permissions:['get', 'post', 'put']},
+			{resources:'/resource(/[0-9]+)?', permissions:['get', 'post', 'put']},
 			{resources:'/resource/[0-9]+/subresource/[0-9]+', permissions:['get', 'post', 'put']}
 		]
 	}
