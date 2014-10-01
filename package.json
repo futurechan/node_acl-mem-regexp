@@ -1,0 +1,22 @@
+{
+  "name": "acl-mem-regexp",
+  "version": "0.1.0",
+  "description": "This replacement for the memory-backend that ships with node_acl supports regular expressions for the resource",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://futurechan@github.com/futurechan/node_acl-mem-regexp"
+  },
+  "keywords": [
+    "acl"
+  ],
+  "author": "futurechan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/futurechan/node_acl-mem-regexp/issues"
+  },
+  "homepage": "https://github.com/futurechan/node_acl-mem-regexp"
+}
