@@ -1,7 +1,7 @@
-node_acl-mem-regexp
+Memory Backend with RegExp support for NODE ACL
 ===================
 
-This replacement for the memory-backend that ships with node_acl supports regular expressions for the resource.
+This replacement for the memory-backend that ships with [acl](https://github.com/OptimalBits/node_acl "node_acl") supports regular expressions for the resource.
 
 ##Status
 
@@ -16,6 +16,9 @@ Using npm:
 npm install acl-mem-regexp
 ```
 
+##Examples
+
+Explicitly allow access to a resource and its subresource.
 ```javascript
 acl.allow([
 	{
@@ -30,8 +33,7 @@ acl.allow([
 
 Do not include ```^``` and ```$```. Those will be added for you.
 
-You can also disallow access to the parent resource while allowing access to the subresource.
-
+You can also omit access to the parent resource while allowing access to the subresource.
 ```javascript
 acl.allow([
 	{
