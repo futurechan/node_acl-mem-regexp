@@ -3,6 +3,11 @@ node_acl-mem-regexp
 
 This replacement for the memory-backend that ships with node_acl supports regular expressions for the resource.
 
+##Status
+
+[![BuildStatus](https://secure.travis-ci.org/futurechan/node_acl-mem-regexp.png?branch=master)](https://travis-ci.org/futurechan/node_acl-mem-regexp)
+
+
 ##Installation
 
 Using npm:
