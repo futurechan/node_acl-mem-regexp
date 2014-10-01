@@ -23,7 +23,7 @@ acl.allow([
 ])
 ```
 
-Do not include ```^``` and ```^```. Those will be added for you.
+Do not include ```^``` and ```$```. Those will be added for you.
 
 You can also disallow access to the parent resource while allowing access to the subresource.
 
