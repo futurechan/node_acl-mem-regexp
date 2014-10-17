@@ -20,6 +20,11 @@ npm install acl-mem-regexp
 
 Explicitly allow access to a resource and its subresource.
 ```javascript
+var acl = require('acl')
+    , Backend = require('acl-mem-regexp')
+    ,acl = new acl(new Backend())
+;
+
 acl.allow([
 	{
 		roles:['someRole'], 
