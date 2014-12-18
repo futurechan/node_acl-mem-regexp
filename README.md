@@ -5,7 +5,7 @@ This replacement for the memory-backend that ships with [acl](https://github.com
 
 ##Status
 
-[![BuildStatus](https://secure.travis-ci.org/futurechan/node_acl-mem-regexp.png?branch=master)](https://travis-ci.org/futurechan/node_acl-mem-regexp)
+[![BuildStatus](https://secure.travis-ci.org/futurechan/node_acl-mem-regexp.png?branch=master)](https://travis-ci.org/futurechan/node_acl-mem-regexp) [![DependencyStatus](https://david-dm.org/futurechan/node_acl-mem-regexp.png?branch=master)](https://david-dm.org/futurechan/node_acl-mem-regexp.png?branch=master)
 
 
 ##Installation
